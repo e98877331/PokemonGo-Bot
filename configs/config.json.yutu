@@ -2,7 +2,7 @@
     "auth_service": "google",
     "username": "",
     "password": "",
-    "location": "Taipei",
+    "location": "25.022207, 121.539868",
     "gmapkey": "",
     "libencrypt_location": "",
     "tasks": [
@@ -50,17 +50,17 @@
       {
         "type": "NicknamePokemon",
         "config": {
-          "enabled": false,
+          "enabled": true,
           "nickname_template": "{iv_pct}_{iv_ads}"
         }
       },
       {
         "type": "EvolvePokemon",
         "config": {
-            "evolve_all": "all",
+            "evolve_all": "Pidgey,Rattata,Weedle,Zubat,Caterpie,Ekans,Clefairy,Oddish,Paras,Diglett,Psyduck,Poliwag,Bellsprout,Tentacool,Goldeen,Horsea,Staryu",
             "first_evolve_by": "cp",
-            "evolve_above_cp": 500,
-            "evolve_above_iv": 0.8,
+            "evolve_above_cp": 0,
+            "evolve_above_iv": 0,
             "logic": "or",
             "evolve_speed": 20,
             "use_lucky_egg": false
@@ -71,8 +71,9 @@
         "config": {
           "min_empty_space": 15,
           "item_filter": {
-            "Pokeball":       { "keep" : 50 },
+            "Pokeball":       { "keep" : 0 },
             "Greatball":     { "keep" : 50 },
+            "Ultraball":     { "keep" : 50 },
             "Potion":         { "keep" : 10 },
             "Super Potion":   { "keep" : 20 },
             "Hyper Potion":   { "keep" : 30 },
