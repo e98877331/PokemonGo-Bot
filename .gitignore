@@ -111,15 +111,15 @@ data/cells-*.json
 data/map-caught-*.json
 
 # Multiple config
-#configs/*
-#!configs/config.json.example
-#!configs/release_config.json.example
-#!configs/config.json.pokemons.example
-#!configs/config.json.pokemon.example
-#!configs/config.json.path.example
-#!configs/config.json.map.example
-#!configs/path.example.json
-#!config.json.cluster.example
+configs/*
+!configs/config.json.example
+!configs/release_config.json.example
+!configs/config.json.pokemons.example
+!configs/config.json.pokemon.example
+!configs/config.json.path.example
+!configs/config.json.map.example
+!configs/path.example.json
+!config.json.cluster.example
 
 # Virtualenv folders
 bin/
