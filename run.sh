@@ -13,7 +13,7 @@ echo "There's no "$filename" file. Please use ./setup.sh -c to creat one."
 fi
 while true
 do
-python pokecli.py -cf $filename
+python2.7 pokecli.py -cf $filename
 echo `date`" Pokebot "$*" Stopped." 
 read -p "Press any button or wait 20 seconds to continue.
 " -r -s -n1 -t 20
